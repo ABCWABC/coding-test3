@@ -11,3 +11,8 @@
   2. 인덱스로 값을 꺼내서 비교 -> !값1.equals(값2) 를 if문 조건문으로 사용
   3. 완주못한 선수가 있을 경우 -> return participant[i];
   4. 완주못한 선수가 completion 비교가 끝날때까지 없으면 participant의 마지막 자리에 있는선수가 완주못한 선수 -> return participant[completion.length];
+
+
+## 보완할점
+
+  1. HashMap을 써서 시간효율을 높인다.
